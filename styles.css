@@ -1,0 +1,52 @@
+.Body{
+  margin: 0;
+}
+
+.Header{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  background-color: lightblue;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Header_boton{
+    height: 35px;
+    width: 35px;
+    background-color: cyan;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.Header_boton:hover{
+  height: 33px;
+  box-shadow: 0 0 3px #000;
+}
+
+.Header_menu{
+  height: 250px;
+  width: 200px;
+  background-color: rgba(0,0,0, 0.5);
+  position: relative;
+  top: 160px;
+  right: 250px;
+  transition: 700ms;
+  transition-timing-function: ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header_menu.is-active{
+  right: 50px;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+}
+
+li{
+margin-bottom: 20px;
+}
